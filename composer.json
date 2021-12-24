@@ -1,0 +1,24 @@
+{
+    "name": "mcanvr/php-mvc-app",
+    "description": "An example MVC app created with PHP",
+    "type": "project",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "./Core",
+            "Controllers\\": "./Controllers",
+            "Models\\": "./Models",
+            "Middlewares\\": "./Middlewares"
+        }
+    },
+    "authors": [
+        {
+            "name": "mcanv",
+            "email": "mehmetcanvardar49@gmail.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^2.3",
+        "jenssegers/blade": "^1.4"
+    }
+}
