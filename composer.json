@@ -9,7 +9,8 @@
             "Controllers\\": "./Controllers",
             "Models\\": "./Models",
             "Middlewares\\": "./Middlewares"
-        }
+        },
+        "files": ["./helpers.php"]
     },
     "authors": [
         {
@@ -19,6 +20,9 @@
     ],
     "require": {
         "izniburak/router": "^2.3",
-        "jenssegers/blade": "^1.4"
+        "jenssegers/blade": "^1.4",
+        "illuminate/database": "^8.77",
+        "filp/whoops": "^2.14",
+        "vlucas/phpdotenv": "^5.4"
     }
 }
