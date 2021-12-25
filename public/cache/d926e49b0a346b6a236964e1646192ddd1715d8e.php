@@ -1,0 +1,1 @@
+<h3>Not found!</h3><?php /**PATH D:\Projelerim\Web Projeler\PHP-MVC-Application\public\views/errors/404.blade.php ENDPATH**/ ?>
