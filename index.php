@@ -5,6 +5,6 @@ use Core\Application;
 
 $app = new Application();
 
-require __DIR__ . '/routes.php';
+require __DIR__ . '/routes/routes.php';
 
 $app->start();
